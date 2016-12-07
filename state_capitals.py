@@ -74,3 +74,5 @@ while continue_game == "y":
     final = correct/(number_of_tries)*100
     print ("you got",int(final),"% right")
     continue_game = input("Do you want to try again?(y/n) ")
+    if continue_game != "y":
+        print ("Thank you!")
